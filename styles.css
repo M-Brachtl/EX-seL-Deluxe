@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+}
+
+#pageHeading {
+    margin: 0 0 2rem 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.exselTabulka {
+    background-color: #f5f5f5;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px #d1d1d1;
+}
+
+input {
+    width: 125px;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    border: transparent 2px solid;
+    transition: 250ms ease;
+    background: white;
+    height: 40px;
+}
+input:hover {
+    border: 2px solid #A1A1A1;
+}
+input:focus {
+    border: 2px solid #36454F;
+}
+
+.headInput {
+    font-weight: bold;
+    background-color: #657383;
+    color: white;
+}
+.headInput:hover {
+    border: 2px solid #36454F;
+}
+.headInput:focus {
+    border: 2px solid #1e262b;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: large;
+    min-width: 400px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #A1A1A1;
+}
+
+table thead tr {
+    background: #657383;
+    color: white;
+}
+
+table th, table td {
+    padding: 6.25px 15px;
+}
+
+table tbody tr {
+    background-color: white;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+table tbody tr:nth-of-type(even), table tbody tr:nth-of-type(even) input {
+    background-color: #eeeeee;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #657383;
+}
