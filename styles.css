@@ -54,6 +54,14 @@ input:focus {
     border: 2px solid #1e262b;
 }
 
+.headInput::placeholder {
+    color: rgb(230, 230, 230);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
 table {
     border-collapse: collapse;
     font-size: large;
