@@ -15,7 +15,14 @@
             font-family: 'Montserrat';
         }
     </style>
-
+    <div class="buttons">
+        <p>Řádky:
+        <button onclick="addRow()">+</button>
+        <button onclick="removeRow()">-</button></p>
+        <p>Sloupečky:
+        <button onclick="addColumns()">+</button>
+        <button onclick="removeColumns()">-</button></p>
+    </div>
     <div class="container">
         <div class="exselTabulka">
             <!-- SIMPLE NADPISEK -->
@@ -29,7 +36,7 @@
                         <th><input class="headInput" type="text" value="Sedy-lehy"></th>
                         <th><input class="headInput" type="text" value="Skok daleký"></th>
                         <th><input class="headInput" type="text" value="Shyby"></th>
-                        <th>Celkové Body</th>
+                        <th id="total-header">Celkové Body</th>
                     </tr>
                 </thead>
                 <tbody>

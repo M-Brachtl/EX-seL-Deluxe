@@ -88,3 +88,24 @@ table tbody tr:last-of-type {
 .result{
     text-align: center;
 }
+
+/* tačítka */
+.buttons{
+    position: absolute;
+}
+.buttons button{
+    background-color: #657383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 250ms ease;
+    font-size: large;
+}
+
+.buttons button:hover{
+    background-color: #36454F;
+}
+
