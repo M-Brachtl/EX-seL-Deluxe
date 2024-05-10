@@ -17,7 +17,7 @@ function addRow() {
     const table = document.querySelector('tbody');
     const newRow = document.createElement('tr');
     table.appendChild(newRow);
-    newRow.innerHTML = '<td><input type="text" value="Člověk"></td>';
+    newRow.innerHTML = '<td><input type="text" placeholder="Jméno"></td>';
     const cols = document.querySelector('thead').querySelector('tr').children.length - 2;
     for (let i = 0; i < cols; i++) {
         newRow.innerHTML += '<td><input type="text" class="points-input" placeholder="0"></td>'; // add placeholder
@@ -49,7 +49,7 @@ function addColumns() {
     });
     const lastKid = heading.querySelector('#total-header');
     heading.removeChild(lastKid);
-    heading.innerHTML += '<th><input class="headInput" type="text" value="Disciplína"></th>';
+    heading.innerHTML += '<th><input class="headInput" type="text" placeholder="Disciplína"></th>';
     heading.appendChild(lastKid);
 }
 
@@ -60,5 +60,5 @@ function removeColumns() {
         row.removeChild(row.querySelectorAll('.points-input')[row.querySelectorAll('.points-input').length - 1].parentElement);
     });
     heading.removeChild(heading.querySelectorAll('.headInput')[heading.querySelectorAll('.headInput').length - 1].parentElement);
-    newCol.querySelector('.points-input').addEventListener('input', evaluatePoints);
+    evaluatePoints();
 }
