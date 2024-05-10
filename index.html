@@ -15,14 +15,17 @@
             font-family: 'Montserrat';
         }
     </style>
-    <div class="buttons">
-        <p>Řádky:
-        <button onclick="addRow()">+</button>
-        <button onclick="removeRow()">-</button></p>
-        <p>Sloupečky:
-        <button onclick="addColumns()">+</button>
-        <button onclick="removeColumns()">-</button></p>
-    </div>
+
+    <!-- TLAČITEČKA -->
+
+        <div class="buttons">
+            <p>Řádky:
+            <button onclick="addRow()">+</button>
+            <button onclick="removeRow()">-</button></p>
+            <p>Sloupečky:
+            <button onclick="addColumns()">+</button>
+            <button onclick="removeColumns()">-</button></p>
+        </div>
 
     <div class="container">
         <div class="exselTabulka">
@@ -33,11 +36,11 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Jméno</th>
+                        <th class="nonInput">Jméno</th>
                         <th><input class="headInput" type="text" placeholder="Disciplína" value="Sedy-lehy"></th>
                         <th><input class="headInput" type="text" placeholder="Disciplína" value="Skok daleký"></th>
                         <th><input class="headInput" type="text" placeholder="Disciplína" value="Shyby"></th>
-                        <th id="total-header">Celkové Body</th>
+                        <th id="total-header" class="nonInput">Celkové Body</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -77,7 +80,6 @@
                         <td class="result">0</td>
                     </tr>
                 </tbody>
-                <tfoot></tfoot>
             </table>
         </div>
     </div>
