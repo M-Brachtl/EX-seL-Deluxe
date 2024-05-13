@@ -23,7 +23,7 @@ Webová aplikace se skládá z HTML, CSS a JavaScript souborů:
 - Dynamicky přidává/odebírá řádky a sloupce podle potřeby.
 - Vypočítává celkové body pro každou osobu na základě zadaných hodnot.
 
-## Jak Používat
+## Jak se apliakce používá
 
 2. Přejděte na odkaz: https://m-brachtl.github.io/EX-seL-Deluxe/
 3. Zadejte body pro každou osobu v tabulce.
