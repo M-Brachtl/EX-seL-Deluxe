@@ -6,7 +6,7 @@ Toto je jednoduchá webová aplikace pro zápis a součet  bodů v atletických 
 
 - [Přehled](#přehled)
 - [Funkce](#funkce)
-- [Jak se aplikace používá](#Jak se aplikace používá)
+- [Jak se aplikace používá](#jak-se-aplikace-používá)
 - [Kredity](#kredity)
 
   ## Přehled
