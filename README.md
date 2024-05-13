@@ -9,7 +9,7 @@ Toto je jednoduchá webová aplikace pro zápis a součet  bodů v atletických 
 - [Jak se aplikace používá](#jak-se-aplikace-používá)
 - [Kredity](#kredity)
 
-  ## Přehled
+## Přehled
 
 Webová aplikace se skládá z HTML, CSS a JavaScript souborů:
 
