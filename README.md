@@ -1,4 +1,4 @@
-# Aplikace pro zápis atlektických disciplín
+# Aplikace pro zápis atletických disciplín
 
 Toto je jednoduchá webová aplikace pro zápis a součet  bodů v atletických disciplínách. Umožňuje uživatelům zadávat body pro různé disciplíny  a vypočítává celkové body pro každou osobu.
 
